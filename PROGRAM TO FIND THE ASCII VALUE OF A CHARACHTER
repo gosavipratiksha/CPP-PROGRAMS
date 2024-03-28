@@ -1,0 +1,11 @@
+//WRITE A PROGRAM TO FIND THE ASCII VALUE OF A CHARACHTER
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch;
+	cout<<"Enter a charachter: "<<endl;
+	cin>>ch;
+	cout<<"The ASCII value of "<<ch<<" is "<<int(ch)<<endl;
+	return 0;
+}
