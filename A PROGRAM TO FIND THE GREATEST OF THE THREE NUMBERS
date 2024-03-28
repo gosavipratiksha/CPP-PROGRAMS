@@ -1,0 +1,26 @@
+//WRITE A PROGRAM TO FIND THE GREATEST OF THE THREE NUMBERS
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c;
+	cout<<"Enter the number a: "<<endl;
+	cin>>a;
+	cout<<"Enter the number b: "<<endl;
+	cin>>b;
+	cout<<"Enter the number c: "<<endl;
+	cin>>c;
+	if(a>=b && a>=c)
+	{
+		cout<<"The Greatest among three numbers is: "<<a<<endl;
+	}
+	else if(b>=a && b>=c)
+	{
+		cout<<"The Greatest among three numbers is: "<<b<<endl;
+	}
+	else
+	{
+		cout<<"The Greatest among three numbers is: "<<c<<endl;
+	}
+	return 0;
+}
