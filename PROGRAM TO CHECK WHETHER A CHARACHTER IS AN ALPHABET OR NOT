@@ -1,0 +1,18 @@
+//WRITE A PROGRAM TO CHECK WHETHER A CHARACHTER IS AN ALPHABET OR NOT
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch;
+	cout<<"Enter a charachter: "<<endl;
+	cin>>ch;
+	if(isalpha(ch))
+	{
+		cout<<"The charachter is a alphabet."<<endl;
+	}
+	else
+	{
+		cout<<"The charachter is not a alphabet."<<endl;
+	}
+	return 0;
+}
