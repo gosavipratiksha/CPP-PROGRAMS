@@ -1,0 +1,19 @@
+// C++ program to check if a given 
+// year is leap year or not
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"Enter a year: "<<endl;
+	cin>>a;
+	if(a%4==0)
+	{
+		cout<<"The year is leap year"<<endl;
+	}
+	else
+	{
+		cout<<"The year is not leap year"<<endl;
+	}
+	return 0;
+}
